@@ -27,6 +27,8 @@ if (!spaceId || !accessToken) {
   )
 }
 
+console.log(contentfulConfig)
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby Contentful starter',
